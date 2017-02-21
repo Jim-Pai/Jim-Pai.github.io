@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(80,80,80);
+}
+
+h1, p, a{
+    color: white;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a.textLink:hover{
+    color: aquamarine;
+    font-size: 115%;
+}
+
+a.socialMedia{
+    opacity: 0.6;
+}
+
+a.socialMedia:hover{
+    opacity: 1.0;
+}

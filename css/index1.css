@@ -1,0 +1,151 @@
+@media screen and (min-width: 320px){
+    p.quote{
+        width: 75%;
+        left: 25%;
+    }
+}
+
+@media screen and (min-width: 400px){
+    p.quote{
+        width: 55%;
+        left: 45%;
+    }
+}
+
+body{
+/*    font-family: Arial;*/
+    margin: 0px;
+    font-size: 1vw;
+}
+
+p.quote{
+    position: relative;
+    font-family: fantasy;
+}
+
+main{
+    font-size: 2.5em;
+    margin-top: 6em;
+    padding-bottom: 6em; 
+    opacity: 0.9;
+}
+
+nav{
+    text-align: right;
+    -webkit-padding-top: 5%;
+    -webkit-padding-right: 15%;
+    padding-top: 5%;
+    padding-right: 15%;
+    font-size: 2em;
+    height: 1.2em;
+    opacity: 0.9;
+}
+
+footer{
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.footer{
+    font-size: 1.2em;
+}
+
+img.socialMedia{
+    opacity: 0.6;
+}
+
+img.socialMedia:hover{
+    opacity: 1.0;
+}
+
+a.topLink{
+    color: white;
+    opacity: 0.9;
+}
+
+a.topLink:hover{
+    color: aquamarine;
+}
+
+a.footer{
+    color: black;
+}
+
+a.footer:hover{
+    color: mediumvioletred;
+}
+
+a{
+    text-decoration: none;
+}
+
+#top{
+    background-size: cover;
+    background-image: url(image/home_background.jpg);
+    width: 100%;
+    height: auto;
+    color: white;
+    opacity: 0.7;
+}
+
+#hello{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 6em;
+}
+
+img.introduction{
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    max-width: 160px;
+    height: auto;
+}
+
+h1.introduction{
+    font-size: 2em;
+}
+
+h2.introduction{
+    position: relative;
+    text-align: left;
+    width: 55%;
+    left: 25%;
+    font-size: 1.5em;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    right: 38%;
+    cursor: pointer;
+}
+
+.dropdown-content{
+    position: absolute;
+    display: none;
+    width: 100%;
+    font-size: 1.5em;
+    box-shadow: 0px 8px 8px 0px rgba(150,150,150,0.2);
+    z-index: 1;
+}
+
+.dropBtn{
+    color: black;
+    background-color: white;
+    font-size: 1.5em;
+    border: 1px solid #bbb;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content div:hover{
+    background-color: azure;
+}
+

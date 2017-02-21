@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/contact2.css" type="text/css" rel="stylesheet" id="cssLink">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="script/scrollto.js"></script>
+        <script src="script/style.js"></script>
+    </head>
+    
+    <body>
+        <header class="top-header" id="top">
+            <a href="index.htm"><img src=image/i-am-jim-logo02.png alt="jim"></a>
+        </header>
+        
+        <nav>   
+            <a href="about.htm" title="About" class="topLink">About</a>
+            <a href="project.htm" title="Food" class="topLink">Project</a>
+            <a href="contact.htm" title="Contact" class="current">Contact</a>
+        </nav>
+        
+        <aside>
+            <section class="topButton">
+                <a class="topButton" href="#top" title="Top"><img class="topButton" src="image/Top-Button.png" alt="Top" width="50"></a>
+            </section>
+        </aside>
+        
+        <div id="top">
+            <div class="myaddress">
+                <p class="title">My Address</p>
+                
+                <div class="address-content">
+                    <div class="address">
+                        <a href="https://www.google.com/maps/place/210+13th+Ave+E,+Seattle,+WA+98102/@47.620264,-122.317428,17z/data=!3m1!4b1!4m5!3m4!1s0x5490152cd950ec81:0x81135fad21f0440a!8m2!3d47.620264!4d-122.315234?hl=zh-TW&authuser=0" target="_blank">210 13th Ave E</a>
+                    </div>
+                    <div class="map_container">
+                        <div id="map"></div>
+                    </div>
+                </div>
+                
+                <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+                <script type="text/javascript" src="contact.js"></script>
+            </div>
+
+            <div class="myemail">
+                <p class="title">My E-mail</p>
+                <div class="email-content">
+                    <img src="image/email.png" alt="gmail">
+                    <div class="emailaddress">
+                        <a href="mailto:chunan.pai@gmail.com">chunan.pai@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="myphone">
+                <p class="title">My Phone</p>
+                <div class="phone-content">
+                    <div class="phonenumber">
+                        <a href="tel:7027416452">(702)741-6452</a>
+                    </div>
+                    <img src="image/phone_call.jpg" alt="phone_call">
+                </div>
+            </div>
+        </div>
+        
+        <div class="contactme">
+            <div class="contactme-container">
+                <header class="contactme-header">
+                    <h1>Contact Me</h1>
+                </header>
+                <form class="form-content" name="myForm" onsubmit="return validateForm()" method="post">
+                    <div class="name">
+                        <p>Name</p>
+                        <input type="text" name="name" class="input">
+                    </div><br/>
+                    <div class="email">
+                        <p>E-mail</p>
+                        <input type="email" name="email" class="input">
+                    </div>
+                    <div class="phone">
+                        <p id="phTitle">Phone</p>
+                        <input type="tel" name="phone" class="input">
+                    </div><br/>
+                    <div class="message">
+                        <p>Message</p>
+                        <textarea name="message" row="25" cols="83" class="input"></textarea>
+                    </div><br/>
+                    <div class="send">
+                        <input type="submit" name="send" value="Send Message">
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <footer>
+            <a href="mailto:chunan.pai@gmail.com">Contact Me</a>&nbsp;|
+            <a href="index.htm">Home</a>&nbsp;|
+            <a href="terms.htm">Terms and Conditions</a>
+            <p>
+                <a href="https://www.facebook.com/profile.php?id=100000113363943" target="_blank"><img class="socialMedia" src="image/Facebook.png" alt="Facebook" width="40" height="40"></a>
+                <a href="https://github.com/Jim-Pai" target="_blank"><img class="socialMedia" src="image/Github.jpg" alt="Github" width="40" height="40"></a>
+                <a href="https://www.linkedin.com/in/chun-an-pai-neu-seattle-is" target="_blank"><img class="socialMedia" src="image/Linkedin.png" alt="Linkedin" width="40" height="40"></a>
+            </p>
+            <p>ALL RIGHTS RESERVED © 2017 Chun-An Pai</p>
+        </footer>
+    </body>
+</html>

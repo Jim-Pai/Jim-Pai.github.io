@@ -1,0 +1,116 @@
+body{
+    margin : 0px;
+    font-size: 1vw;
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.3em;
+}
+
+#top img{
+    width: 12%;
+    margin-left: 9%;
+}
+
+nav{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+nav a{
+    color: #777;
+    margin-right: 5%;
+    padding-bottom: 1%;
+    font-size: 1.2em;
+}
+
+nav{
+    background-color: rgb(210,240,255);
+    padding: 2%;
+    text-align: center;
+}
+
+nav a:hover{
+    color: rgb(255,140,0);
+    border-bottom: 2px solid rgb(255,140,0);
+}
+
+footer img{
+    opacity: 0.6;
+}
+
+footer img:hover{
+    opacity: 1.0;
+}
+
+img.background{
+    opacity: 1.0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a.current{
+    font-weight: 900;
+}
+
+a:hover{
+    color:mediumvioletred;
+}
+
+.projectContent{
+    width: 100%;
+    text-align: center;
+}
+
+.java-project, .db-project{
+    height: 50vw;
+/*
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+*/
+    margin-top: 3vw;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+    padding-top: 3vw;
+}
+
+.db-project{
+    background-color: rgba(128,144,160,0.3);
+}
+
+.projectImgBottom, .projectImgTop{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 2vw;
+    padding: 2%;
+    width: 32vw;
+    height: 16vw;
+}
+
+.projectImgTop{
+/*    align-self: center;*/
+    margin-bottom: 15%;
+    margin-right: 5%;
+}
+
+.projectImgBottom{
+/*    align-self: flex-end;*/
+}
+
+.projectImgBottom:hover, .projectImgTop:hover{
+    box-shadow: 0 0 3px 1px rgba(0, 200, 100, 0.7);
+}
+
+h2{
+    font-size: 2em;
+}
+
+main{
+    margin-bottom: 8%;
+}
