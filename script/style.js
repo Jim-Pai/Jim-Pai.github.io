@@ -43,7 +43,7 @@ function getFileName() {
     console.log(location.href);
     var path = location.href.split("/");
     var htmlName = path[path.length - 1].split(".");
-    return htmlName[0];
+    return (htmlName[0] == "") ? "index" : htmlName[0];
 }
 
 function setupStyle() {
