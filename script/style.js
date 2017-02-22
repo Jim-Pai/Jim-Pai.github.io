@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 function changeStyle(cssName) {
     var link = document.getElementById("cssLink");
-    link.href = cssName + ".css";
+    link.href = "css/" + cssName + ".css";
 }
 
 function createCookie(styleID, days) {
