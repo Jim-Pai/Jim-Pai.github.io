@@ -2,12 +2,21 @@
 <html>
     <head>
         <link href="css/project.css" type="text/css" rel=stylesheet>
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="script/imgPopout.js"></script>
         <title>Project</title>
     </head>
 
     <body>
+        <div class="popoutBg">
+            <div class="popout"></div>
+        </div>
+        
         <header class="top-container" id="top">
             <a href="index.htm">
                 <img src=image/i-am-jim-logo02.png alt="jim">
@@ -20,6 +29,8 @@
             <a href="contact.htm" title="Contact" class="topLink">Contact</a>
         </nav>
         
+        
+        
         <main>
             <div class="projectContent">
                 <section id="java">
@@ -30,10 +41,12 @@
                     </div>
                 </section>
                 
-                <section class="db-project">
-                    <h2>Database Project</h2>
-                    <img class="projectImgTop" src="image/Dbproject1.png" alt="DB project">
-                    <img class="projectImgBottom" src="image/Dbproject2.png" alt="DB project">
+                <section id="db">
+                    <div class="db-project">
+                        <h2>Database Project</h2>
+                        <img class="projectImgTop" src="image/Dbproject1.png" alt="DB project">
+                        <img class="projectImgBottom" src="image/Dbproject2.png" alt="DB project">
+                    </div>
                 </section>
             </div>
         </main>
@@ -50,6 +63,6 @@
             </p>
             <p>ALL RIGHTS RESERVED © 2017 Chun-An Pai</p>
         </footer>
-        
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
     </body>
 </html>
