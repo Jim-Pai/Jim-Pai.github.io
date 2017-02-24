@@ -16,7 +16,9 @@ function myMap() {
     console.log("Create Map");
 }
 
-var map = new myMap();
+$(document).ready(function() {
+    var map = new myMap();
+});
 
 function validateForm() {
     var n = document.forms["myForm"]["name"];
