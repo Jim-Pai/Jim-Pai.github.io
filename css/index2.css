@@ -14,7 +14,7 @@
 
 body{
     margin: 0px;
-    background-color: darkgray;
+    font-size: 1vw;
 }
 
 p.quote{
@@ -44,6 +44,13 @@ nav a{
     margin-right: 2.5vw;
 }
 
+#bottom{
+    background-color: #444;
+    margin: 0;
+    padding-top: 5em;
+    padding-bottom: 0.5em;
+}
+
 footer{
     width: 100%;
     color: white;
@@ -52,7 +59,7 @@ footer{
 }
 
 .footer{
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 img.socialMedia{
@@ -99,10 +106,9 @@ a{
     width: 100%;
     height: auto;
     text-align: center;
-    margin-top: 5em;
-    margin-bottom: 6em;
     font-size: 1vw;
     color: white;
+    margin-bottom: 6em;
 }
 
 img.introduction{

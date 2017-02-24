@@ -1,0 +1,165 @@
+body{
+    margin : 0px;
+    font-size: 1vw;
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.3em;
+}
+
+#top img{
+    width: 12%;
+    margin-left: 9%;
+}
+
+nav a{
+    color: #777;
+    margin: 2.5%;
+    padding-bottom: 1%;
+    font-size: 1.2em;
+}
+
+nav{
+    background-color: rgb(210,240,255);
+    padding: 2%;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+nav a:hover{
+    color: rgb(255,140,0);
+    border-bottom: 2px solid rgb(255,140,0);
+}
+
+@media screen and (min-width: 0px){
+    aside{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 940px){
+    aside{
+        display: inline-block;
+        position: fixed;
+        left: 3%;
+        top: 5%;
+        font-size: 1vw;
+        margin-top: 10.95%;
+        padding-top: 23%;
+        z-index: 1;
+    }   
+}
+
+aside img{
+    opacity: 0.6;
+}
+
+aside img:hover{
+    opacity: 1.0;
+}
+
+footer img{
+    opacity: 0.6;
+}
+
+footer img:hover{
+    opacity: 1.0;
+}
+
+img.background{
+    opacity: 1.0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a.current{
+    font-weight: 900;
+}
+
+a:hover{
+    color:mediumvioletred;
+}
+
+.projectContent{
+    width: 100%;
+    text-align: center;
+}
+
+.java-project, .db-project{
+    margin-top: 2vw;
+    padding-left: 3vw;
+    padding-bottom: 1vw;
+    padding-top: 3vw;
+}
+
+.db-project{
+    background-color: rgba(128,144,160,0.3);
+}
+
+.projectImg{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 2vw;
+    padding: 2%;
+    width: 32vw;
+    height: 16vw;
+    margin: 2vw;
+}
+
+.projectImg:hover{
+    box-shadow: 0 0 5px 3px rgba(0, 200, 100, 0.8);
+    cursor: pointer;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+main{
+    margin-bottom: 8%;
+}
+
+div.popoutBg{
+    position: fixed;
+    background-color: rgba(64,64,64,0.8);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+@media screen and (min-width: 0px){
+    div.popout{
+        padding-top: 60vw;
+    }
+}
+@media screen and (min-width: 1025px){
+    div.popout{
+        padding-top: 5vw;
+    }
+}
+
+article{
+    position: relative;
+    font-size: 1.4em;
+    width: 70%;
+    left: 15%;
+    text-align: center;
+    margin-bottom: 4vw;
+}
+
+.popoutImg{
+    border: 1px solid #ddd;
+    border-radius: 1vw;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.slick-slide slick-cloned{
+    margin-top: 0;
+}

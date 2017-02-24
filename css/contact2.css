@@ -2,7 +2,7 @@ body{
     text-align: center;
     margin: 0px;
     font-size: 1vw;
-    background-color: #ccc;
+    background-color: #444;
 }
 
 div#map{
@@ -21,20 +21,20 @@ div.address{
 }
 
 nav{
-    background-color: rgb(50,100,200);
+    background-color: rgb(60,100,200);
     padding: 2%;
 }
 
 nav a{
     color: white;
-    margin-right: 5%;
+    margin: 2.5%;
     padding-bottom: 1%;
     font-size: 1.2em;
 }
 
 nav a:hover{
-    color: rgb(255,140,0);
-    border-bottom: 2px solid rgb(255,140,0);
+    color: white;
+    border-bottom: 2px solid #444;
 }
 
 header.top-header{
@@ -63,7 +63,7 @@ header a{
         left: 3%;
         top: 5%;
         font-size: 1vw;
-        margin-top: 15%;
+        margin-top: 10.95%;
         padding-top: 23%;
         z-index: 1;
     }   
@@ -79,6 +79,7 @@ aside img:hover{
 
 footer{
     font-size: 1.2em;
+    color: white;
 }
 
 a{
@@ -86,7 +87,7 @@ a{
 }
 
 footer a{
-    color: black;
+    color: white;
 }
 
 #top a{
@@ -118,6 +119,7 @@ a.current{
 .title{
     font-size: 2.2em;
     font-family: "Comic Sans MS", cursive;
+    color: white;
 }
 
 .myaddress{

@@ -1,0 +1,151 @@
+footer{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.3em;
+}
+
+body{
+    font-size: 1vw;
+    margin: 0px;
+}
+
+img.logo{
+    height: 30%;
+}
+
+article, section.taiwan{
+    font-size: 1.3em;
+}
+
+section.taiwan, section.intro{
+    margin-top: 1%;
+    padding-left: 3%;
+}
+
+#top img{
+    width: 12%;
+    margin-left: 9%;
+}
+
+nav a{
+    color: #777;
+    margin: 2.5%;
+    padding-bottom: 1%;
+    font-size: 1.2em;
+}
+
+nav{
+    background-color: rgb(210,240,255);
+    padding: 2%;
+}
+
+nav a:hover{
+    color: rgb(255,140,0);
+    border-bottom: 2px solid rgb(255,140,0);
+}
+
+h2{
+    background-color: rgb(0,100,160);
+    color: white;
+    width: 80%;
+    font-size: 1.8em;
+    padding: 5px;
+}
+
+nav{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a.current{
+    font-weight: 900;
+}
+
+a:hover{
+    color:mediumvioletred;
+}
+
+a.posButton{
+    transition: color 0.5s linear;
+}
+
+a.posButton:hover{
+    text-decoration: underline;
+}
+
+img.socialMedia, img.topButton{
+    opacity: 0.6;
+}
+
+img.socialMedia:hover, img.topButton:hover{
+    opacity: 1.0;
+}
+
+img.logo{
+    padding-left: 100px;
+}
+
+h1.name{
+    font-size: 2em;
+    margin-bottom: -10px;
+}
+
+section.contact{
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 0px){
+    aside{
+        display: none;
+    }
+    
+    .container{
+        position: relative;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 940px){
+    aside{
+        display: inline-block;
+        position: fixed;
+        left: 3%;
+        top: 5%;
+        font-size: 1vw;
+        margin-top: 15%;
+    }
+    
+    .container{
+        position: relative;
+        left: 25%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+article{
+    padding-left: 2%;
+    margin-bottom: 40px;
+}
+
+section.asideLogo{
+    margin-bottom: 50px;
+}
+
+section.posButton{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+section.topButton{
+    margin-top: 70%;
+}
+

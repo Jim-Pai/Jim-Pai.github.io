@@ -26,7 +26,7 @@ nav{
 
 nav a{
     color: #777;
-    margin-right: 5%;
+    margin: 2.5%;
     padding-bottom: 1%;
     font-size: 1.2em;
 }
@@ -62,7 +62,7 @@ header a{
         left: 3%;
         top: 5%;
         font-size: 1vw;
-        margin-top: 15%;
+        margin-top: 10.95%;
         padding-top: 23%;
         z-index: 1;
     }   
